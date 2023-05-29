@@ -39,5 +39,22 @@
     text-align: right;
 }
 
+header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #01038B;
+}
+
+#header_section {
+    max-width: 800px;
+    min-height: 300px;
+    margin: auto;
+    background-color: #EE82EE
+}
+
+#hr1 {
+    border: 1px solid #A0D2E1;
+}
+
 
 
