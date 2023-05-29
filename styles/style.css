@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.border_black {
+    border: 1px dashed black;
+}
+
+#top_wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ADD8E6;
+}
+
+#top_nav_wrapper {
+    max-width: 980px;
+    min-height: 30px;
+    margin: auto;
+    display: flex;
+    background-color:#D9A420;
+}
+
+#top_logo, #top_nav, #login {
+    padding: 5px;
+    flex-grow: 1;
+}
+
+#top_logo {
+    text-align: left; /*not necessary but more elegant imo*/
+}
+
+#top_nav {
+    text-align: center;
+}
+
+#login {
+    text-align: right;
+}
+
+
+
