@@ -63,8 +63,12 @@ header {
     padding-bottom: 30px;
 }
 
-#section1 {
+#section1, #section3 {
     background-color: #FFFFFF;
+}
+
+#section2, #section4 {
+    background-color: #D3D3D3;
 }
 
 .section_content {
@@ -72,19 +76,24 @@ header {
     min-height: 400px;
     margin: auto;
     display: flex;
-    background-color: #EE82EE;
 }
 
-#section1_content_left {
+#section1_content_left, #section2_content_right, #section3_content_left {
     flex-grow: 1.5;
     background-color: #3690FF;
 }
 
-#section1_content_right {
+#section1_content_right, #section2_content_left, #section3_content_right {
     flex-grow: 1;
     background-color: #F7C0CB;
 }
 
+#section4_content {
+    max-width: 980px;
+    min-height: 700px;
+    margin: auto;
+    background-color: #3A8B22;
+}
 
 
 
