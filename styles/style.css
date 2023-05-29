@@ -8,6 +8,10 @@
     border: 1px dashed black;
 }
 
+.border_white {
+    border: 1px dashed white;
+}
+
 #top_wrapper {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -53,8 +57,6 @@ header {
 }
 
 #hr1 {
-    margin-block-start: 0;
-    margin-block-end: 0;
     border: 1px solid #A0D2E1;
 }
 
@@ -95,6 +97,61 @@ header {
     background-color: #3A8B22;
 }
 
+#footer_top, #footer_bottom {
+    background-color: #23272A;
+}
 
+#footer_top {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
 
+#footer_section1 {
+    max-width: 980px;
+    min-height: 400px;
+    margin: auto;
+    display: flex;
+}
+
+#footer_top_left {
+    flex-grow: 1;
+    background-color: #F08080;
+}
+
+#footer_nav {
+    flex-grow: 2.5;
+    display: flex;
+}
+
+.section_footer_nav {
+    flex-grow: 1;
+    background-color: #4BB2AA;
+}
+
+#hr2 {
+    border: 1px solid #C0C0C0;
+}
+
+#footer_bottom {
+    padding-top: 15px;
+}
+
+#footer_section2 {
+    max-width: 980px;
+    min-height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #7FFFD4;
+}
+
+#bottom_logo, #bottone {
+    padding: 2px;
+    background-color: #F5B5C0;
+}
+
+/* Could have done better with some 
+css advanced selectors?? */
 

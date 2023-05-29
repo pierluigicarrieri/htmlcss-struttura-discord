@@ -30,56 +30,100 @@
 
     </header>
 
-    <hr id="hr1"> <!-- could have been interpreted as a div,
-         or the continuation of the top section (a big wrapper
-          with inside the "top_nav_wrapper" and the "header") -->
+    <hr id="hr1"> <!-- Could have been interpreted as a div,
+    or the continuation of the top section (a big wrapper
+    with inside the "top_nav_wrapper" and the "header") -->
 
-<main>
+    <main>
 
-    <section id="section1" class="main_section">
+<!-- Not entirely sure about my choice here (used the section tag
+    basically as a wrapper, the content is incapsulated in divs
+    with various ids). Perhaps semantically incorrect? -->
 
-        <div id="section1_content" class="section_content">
+        <section id="section1" class="main_section">
 
-            <div id="section1_content_left" class="border_black"></div>
+            <div id="section1_content" class="section_content">
 
-            <div id="section1_content_right" class="border_black"></div>
+                <div id="section1_content_left" class="border_black"></div>
+
+                <div id="section1_content_right" class="border_black"></div>
+
+            </div>
+
+        </section>
+
+        <section id="section2" class="main_section">
+
+            <div id="section2_content" class="section_content">
+
+                <div id="section2_content_left" class="border_black"></div>
+
+                <div id="section2_content_right" class="border_black"></div>
+
+            </div>
+
+        </section>
+
+        <section id="section3" class="main_section">
+
+            <div id="section3_content" class="section_content">
+
+                <div id="section3_content_left" class="border_black"></div>
+
+                <div id="section3_content_right" class="border_black"></div>
+
+            </div>
+
+        </section>
+
+        <section id="section4" class="main_section">
+
+            <div id="section4_content" class="border_black"></div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+
+        <div id="footer_top">
+
+            <section id="footer_section1">
+
+                <div id="footer_top_left" class="border_black"></div>
+
+                <nav id="footer_nav" class="border_black">
+
+                    <section class="section_footer_nav border_white"></section>
+
+                    <section class="section_footer_nav border_white"></section>
+
+                    <section class="section_footer_nav border_white"></section>
+
+                    <section class="section_footer_nav border_white"></section>
+
+                </nav>
+
+            </section>
 
         </div>
 
-    </section>
+        <hr id="hr2">
 
-    <section id="section2" class="main_section">
+        <div id="footer_bottom">
 
-        <div id="section2_content" class="section_content">
+            <section id="footer_section2">
 
-            <div id="section2_content_left" class="border_black"></div>
+                <div id="bottom_logo" class="border_black">Logo</div>
 
-            <div id="section2_content_right" class="border_black"></div>
+                <div id="bottone" class="border_black">Bottone</div>
 
-        </div>
-
-    </section>
-
-    <section id="section3" class="main_section">
-
-        <div id="section3_content" class="section_content">
-
-            <div id="section3_content_left" class="border_black"></div>
-
-            <div id="section3_content_right" class="border_black"></div>
+            </section>
 
         </div>
 
-    </section>
-
-    <section id="section4" class="main_section">
-
-        <div id="section4_content" class="border_black"></div>
-
-    </section>
-
-
-</main>
+    </footer>
 
 
 
